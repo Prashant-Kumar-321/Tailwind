@@ -8,10 +8,13 @@
 	<link rel="stylesheet" href="../output.css">
 </head>
 <body class="bg-slate-900 min-h-screen grid place-content-center" >
-	<h1 class="capitalize text-white text-2xl bg-green-400 p-4 rounded-md">Tailwind css framework</h1>
+	<h1 class="capitalize text-white text-2xl bg-green-400 p-4 rounded-md text-center max-w-md mx-auto">Tailwind css framework</h1>
 
-	<div class="p-4">
-		<div class="p-6 max-w-sm mx-auto rounded-lg bg-white shadow-xl flex items-center  space-x-4"> <!-- One card -->
+	<!-- Card containers  -->
+	<div class="p-4 flex items-center justify-center gap-3 flex-wrap">
+		
+		<!-- One card -->
+		<div class="p-6 max-w-sm mx-auto rounded-lg bg-white shadow-xl flex items-center  space-x-4">
 			<div>
 				<img src="../media/images/prashant-profile.jpg" alt="Prashant Kumar Gupta Profile Picture" loading="lazy" width="2560" height="1920" class="h-16 w-16 rounded-full hover:sepia hover:scale-125">
 			</div>
@@ -22,6 +25,19 @@
 				</div>
 			</div>
 		</div>  
+
+		<!-- Second card -->
+		<div class="p-6 max-w-sm bg-white flex flex-col items-center justify-center rounded-lg"> 
+			<div>
+				<img src="../media/images/Benuu-Roy-Profile_1280X1920_Product_manager.jpg" alt="Benu Roy Profile pic" width="1280" height="1920" loading="lazy" class="h-16 w-16 rounded-md">
+			</div>
+			<div>
+				<div class="text-center text-2xl">
+					<h3 class="font-medium">Bennu Roy</h3>
+					<p class="text-xl text-slate-700">Product Manager at Adobe.</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
