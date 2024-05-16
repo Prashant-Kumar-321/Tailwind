@@ -1,0 +1,24 @@
+<svg width="128" height="128" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="12" cy="12" r="10" fill="#ffffff" stroke="#fff" stroke-width="0.3"/>
+  
+  <!-- Inner Rectangle -->
+  <rect x="6" y="7" width="12" height="10" rx="1" fill="#87CEEB" stroke="#000" stroke-width="0.5"/>
+  
+  <!-- Screen Content -->
+  <rect x="8" y="9" width="8" height="1" fill="#FFFFFF"/>
+  <rect x="8" y="11" width="5" height="1" fill="#FFFFFF"/>
+  <rect x="8" y="13" width="7" height="1" fill="#FFFFFF"/>
+  
+  <!-- Tabs -->
+  <rect x="12" y="8" width="5" height="1" fill="#FF6347" stroke="#000" stroke-width="0.2"/>
+  <rect x="8" y="8" width="4" height="1" fill="#4682B4" stroke="#000" stroke-width="0.2"/>
+  
+  <!-- Sparkling Stars -->
+  <!-- Star 1 (small) -->
+  <path d="M4 11 L4.2 11.5 L4.7 11.5 L4.3 11.8 L4.4 12.3 L4 12 L3.6 12.3 L3.7 11.8 L3.3 11.5 L3.8 11.5 Z" fill="#FFD700" stroke="#000" stroke-width="0.2"/>
+  <!-- Star 2 (medium) -->
+  <path d="M3 14 L3.3 14.6 L4 14.6 L3.5 15 L3.7 15.7 L3 15.2 L2.3 15.7 L2.5 15 L2 14.6 L2.7 14.6 Z" fill="#FFD700" stroke="#000" stroke-width="0.2"/>
+  <!-- Star 3 (large) -->
+  <path d="M5 17 L5.5 18 L6.5 18 L5.75 18.5 L6 19.5 L5 18.75 L4 19.5 L4.25 18.5 L3.5 18 L4.5 18 Z" fill="#FFD700" stroke="#000" stroke-width="0.2"/>
+</svg>
