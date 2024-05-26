@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pw Skills Signup/Signin</title>
+	<link rel="stylesheet" href="../signup_in.css">
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../media/favicon/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../media/favicon/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../media/favicon/favicon_io/favicon-16x16.png">
+	<link rel="shortcut icon" href="../media/favicon/favicon_io/favicon.ico" type="image/x-icon">
+	<link rel="manifest" href="/site.webmanifest">
+
+	<!-- font awesome attachement -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+</head>
+<body class="min-h-screen">
+	<main class="min-h-screen w-full grid xl:grid-cols-3fr-2fr grid-cols-1">
+		<!-- Left sections starts here  -->
+		<div class="xl:min-h-screen xl:block hidden">
+			<img class="h-full w-auto object-cover" src="../media/images/signin-banner.svg" alt="PW Skill Banner">
+		</div>
+		<!-- Left section ends here -->
+
+		<!-- Right section starts here  -->
+		<div class="min-h-screen sm:p-16 p-4">
+			<div class="h-full w-full flex flex-col gap-8 xl:max-w-[80%]">
+				<!-- logo starts here -->
+
+				<div class="">
+					<a class="block" href="#">
+						<img class="w-52" src="../media/images/PWSkills-main.png" alt="PW Skills">
+					</a>
+				</div>
+				<!-- Logo ends here -->
+
+				<div class="flex flex-col gap-8 mx-auto xl:w-full sm:w-[80%] w-full">
+					<div class="xl:block flex justify-center">
+						<p class="font-bold text-2xl text-center">Get Onboard and jumpstart your career!</p>
+					</div>
+					
+					<p class="text-sm xl:block flex justify-center">Please enter your phone number to login/register</p>
+
+					<div>
+						<form action="#">
+							<div class="flex flex-col gap-8">
+							<!-- country tel code starts here -->
+								<div>
+									<div class="flex flex-row gap-4 items-center border-b-2 border-b-solid border-b-gray-600 pb-3 overflow-hidden">
+										<div class=""> <!-- country code  -->
+											<select name="country-code" id="country-code">
+												<option value="+213">Algeria</option>
+												<option value="+1-684">American Samoa</option>
+												<option value="+376">Andorra</option>
+												<option value="+244">Angola</option>
+												<option value="+1-264">Anguilla</option>
+											</select>
+										</div>
+										<p class="text-3xl font-normal">⏐</p>
+										<div> <!-- Telephone input -->
+											<input class="py-1 focus:outline-none  focus:border-none focus:shadow-none sm:text-lg text-[15px] sm:placeholder:text-lg placeholder:text-sm" type="tel" name="phone" id="phone-input" placeholder="Enter your phone number">
+										</div>
+									</div>
+								</div>
+								<!-- coutry tel code ends here  -->
+
+								<div class="text-center">
+									<button class="block w-full bg-red-600 hover:bg-red-400 hover:text-gray-700 transition-all duration-300 ease-in-out  px-10 py-2 text-xl text-white font-semibold font-sans rounded-[4px]" type="submit">Send OTP</button>
+								</div>
+							</div>
+						</form>
+					</div>
+
+					<p class="text-center font-bold text-gray-600 text-xl">OR</p>
+					<div class="text-center">
+						<button class="bg-red-600 hover:bg-red-400 transition-all duration-300 ease-in-out px-4 py-2 rounded-lg text-white sm:text-2xl text-lg"> <i class="fa-brands fa-google"></i> <span class="text-sm">Sign in with Google</span></button> 
+					</div>
+				</div>
+		</div>
+		</div>
+		<!-- Right section ends here -->
+	</main>
+</body>
+</html>
