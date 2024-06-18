@@ -1005,6 +1005,10 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[15px\] {
+  font-size: 15px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1023,10 +1027,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[15px\] {
-  font-size: 15px;
 }
 
 .font-bold {
@@ -1092,10 +1092,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\] {
-  color: ;
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -1128,16 +1124,6 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.placeholder\:text-lg::-moz-placeholder {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.placeholder\:text-lg::placeholder {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .placeholder\:text-sm::-moz-placeholder {
